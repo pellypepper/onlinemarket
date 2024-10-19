@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6de441a3.css",
+    "main.js": "/static/js/main.5c0c4473.js",
+    "static/media/sell2.png": "/static/media/sell2.40774536471fe466e91e.png",
+    "static/media/land.png": "/static/media/land.271bdc3a4834cb91cd5a.png",
+    "static/media/fiat.png": "/static/media/fiat.84a98228f7b478e47070.png",
+    "static/media/sell.jpg": "/static/media/sell.9397ff35eafc66683e69.jpg",
+    "static/media/started.png": "/static/media/started.d08ac928a6302ffba4e6.png",
+    "static/media/chevrolet.png": "/static/media/chevrolet.d184538cf0eea4f39e5b.png",
+    "static/media/porsche.png": "/static/media/porsche.0341ba4241327bf81c02.png",
+    "static/media/mazda.png": "/static/media/mazda.f5004546d6f3a37cdb26.png",
+    "static/media/ford.png": "/static/media/ford.9d2655a8b202ea7f3baa.png",
+    "static/media/skoda.png": "/static/media/skoda.ebc3b4db5b7b178e0209.png",
+    "static/media/grow.png": "/static/media/grow.d069fb21b9e54849205d.png",
+    "static/media/honda.png": "/static/media/honda.e769a5e4efad30a406a2.png",
+    "static/media/benz.png": "/static/media/benz.4ee8584e19d9690519cf.png",
+    "static/media/bmw.png": "/static/media/bmw.ae5b855d828ba62ea26e.png",
+    "index.html": "/index.html",
+    "main.6de441a3.css.map": "/static/css/main.6de441a3.css.map",
+    "main.5c0c4473.js.map": "/static/js/main.5c0c4473.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6de441a3.css",
+    "static/js/main.5c0c4473.js"
+  ]
+}
