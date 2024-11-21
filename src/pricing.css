@@ -1,0 +1,231 @@
+
+  
+  /* Pricing Layout */
+  .pricing-layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .pricing-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+  }
+  
+  .pricing-intro {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  
+  .pricing-intro h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .pricing-intro p {
+    font-size: 1.125rem;
+    color: #666;
+    margin-bottom: 3rem;
+    line-height: 1.8;
+  }
+  
+  /* Pricing Plans Section */
+  .pricing-plans {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 2rem;
+  }
+  
+  .pricing-plan {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .pricing-plan:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+  }
+  
+  .pricing-plan h6 {
+    font-size: 1.5rem;
+    color: #6f42c1;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .pricing-plan p {
+    font-size: 1.125rem;
+    color: #777;
+    margin-bottom: 1.5rem;
+  }
+  
+  .pricing-plan h3 {
+    font-size: 2.25rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .pricing-plan span {
+    font-size: 1.125rem;
+    color: #666;
+  }
+  
+  .pricing-plan button {
+    background-color: #6f42c1;
+    color: #fff;
+    font-size: 1.125rem;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 1.5rem;
+  }
+  
+  .pricing-plan button:hover {
+    background-color: #5a38a1;
+    transform: scale(1.05);
+  }
+  
+  .features-list {
+    list-style-type: none;
+    margin-top: 2rem;
+    padding: 0;
+    color: #777;
+  }
+  
+  .feature-item {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .checkmark {
+    color: #6f42c1;
+    margin-right: 0.5rem;
+  }
+  
+  /* Comparison Section */
+  .pricing-comparison {
+    text-align: center;
+    margin-top: 4rem;
+  }
+  
+  .pricing-comparison h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .pricing-comparison p {
+    font-size: 1.125rem;
+    color: #666;
+    margin-bottom: 2rem;
+  }
+  
+  @media (max-width: 1024px) {
+    .pricing-intro h1 {
+      font-size: 2rem;
+    }
+  
+    .pricing-intro p {
+      font-size: 1rem;
+    }
+  
+    .pricing-plan {
+      padding: 1.5rem;
+    }
+  
+    .pricing-plan h6 {
+      font-size: 1.25rem;
+    }
+  
+    .pricing-plan h3 {
+      font-size: 2rem;
+    }
+  
+    .pricing-plan button {
+      font-size: 1rem;
+    }
+  
+    .pricing-plans {
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    }
+  
+    .features-list {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .pricing-intro h1 {
+      font-size: 1.75rem;
+    }
+  
+    .pricing-intro p {
+      font-size: 1rem;
+    }
+  
+    .pricing-plan h6 {
+      font-size: 1.125rem;
+    }
+  
+    .pricing-plan p {
+      font-size: 1rem;
+    }
+  
+    .pricing-plan h3 {
+      font-size: 1.75rem;
+    }
+  
+    .pricing-plan button {
+      padding: 0.75rem 1.5rem;
+    }
+  
+    .pricing-plans {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .pricing-intro h1 {
+      font-size: 1.5rem;
+    }
+  
+    .pricing-intro p {
+      font-size: 0.875rem;
+    }
+  
+    .pricing-plan h6 {
+      font-size: 1rem;
+    }
+  
+    .pricing-plan p {
+      font-size: 0.875rem;
+    }
+  
+    .pricing-plan h3 {
+      font-size: 1.5rem;
+    }
+  
+    .pricing-plan button {
+      font-size: 0.875rem;
+      padding: 0.5rem 1rem;
+    }
+  
+    .pricing-plans {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+  }
+  
