@@ -31,10 +31,7 @@ const miniContainers = [
   { icon: FaUsers, label: "Crowd", desc: "Best Usability Summer 2021" },
 ];
 
-const growSections = [
-  { label: "Google advertising", desc: "Promote products with Google Ads" },
-  { label: "Facebook advertising", desc: "Manage Facebook campaigns" },
-];
+
 
 const globalFeatures = [
   { count: "50+", label: "Payment gateways" },
