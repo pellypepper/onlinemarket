@@ -118,17 +118,16 @@
   /* Responsive Menu for Mobile */
   @media (max-width: 768px) {
     .header_wrapper {
- 
+       
        grid-template-columns: 200px 200px;
    
    
   
    
      }
-     .header_wrapper .header_logo{
-   
-       
-    
+     .header_logo h1 {
+      font-size: 1.2rem;
+      font-weight: bold;
     }
     
     /* Main navigation turns into a vertical menu */
@@ -199,6 +198,10 @@
   }
   
   @media (max-width: 481px) {
+    .header_container{
+      padding: 10px;
+    }
+   
     /* Mobile Navigation Menu */
     .header_nav {
       display: none; /* Hide by default */
@@ -261,17 +264,16 @@
   
     /* Adjust the CTA button for mobile */
     .header_cta {
-      flex-direction: column;
+      flex-direction: row;
       gap: 1rem;
       margin-top: 1rem;
       width: 100%;
     }
-  
+    
     .cta_button {
-      width: 100%;
-      text-align: center;
-
+   
+     
       border-radius: 10px;
-      font-size: 1rem;
+      font-size: .7rem;
     }
   }
