@@ -149,7 +149,7 @@
   .started_section button {
     padding: 1rem 2rem;
     font-size: 1rem;
-    background-color: #6f42c1;
+    background-color: purple;
     color: #fff;
     border: none;
     border-radius: 8px;
@@ -158,7 +158,7 @@
   }
   
   .started_section button:hover {
-    background-color: #5a38a1;
+    background-color: purple;
     transform: scale(1.05);
   }
   
@@ -280,7 +280,7 @@ gap: 20px;
   
   .grow_1 button, .sell_1 button {
     padding: 1rem 2rem;
-    background-color: #6f42c1;
+    background-color: purple;
     color: #fff;
     border: none;
     border-radius: 8px;
@@ -289,7 +289,7 @@ gap: 20px;
   }
   
   .grow_1 button:hover, .sell_1 button:hover {
-    background-color: #5a38a1;
+    background-color: purple;
     transform: scale(1.05);
   }
   
@@ -388,7 +388,7 @@ gap: 20px;
   }
   
   .style_middle_box p {
-    color: #6f42c1;
+    color: purple;
     font-size: 1rem;
     cursor: pointer;
     display: flex;
@@ -398,7 +398,7 @@ gap: 20px;
   }
   
   .style_middle_box p:hover {
-    color: #5a38a1;
+    color: purple;
   }
   
   /* Keyframe Animations */
@@ -446,6 +446,12 @@ gap: 20px;
   }
   
   @media screen and (max-width: 768px) {
+    .logo {
+      width: 60px;
+      height: 60px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+  }
     .started_section img {
       max-width: 70%; /* Adjust image width on smaller screens */
     }
@@ -456,6 +462,19 @@ gap: 20px;
        flex-direction: column; /* Stack columns vertically */
     }
    
+    .sell_1 div h1, .grow_1 div h1{
+      font-size: 1.5rem;
+    }
+    .started_wrapper h1{
+      font-size: 1.5rem;
+    }
+    .started_wrapper span,  .sell_1 div span,  .grow_1 div span{
+      font-size: 1rem;
+    }
+    .started_wrapper button, .sell_1 button, .grow_1 button{
+      width: 70%;
+      margin: 0 auto;
+    }
   
   
     .style_top_wrapper {

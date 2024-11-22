@@ -9,9 +9,18 @@
   }
   
   .header_wrapper {
+    display: grid;
+    grid-template-columns: 200px max-content 200px; /* 3 columns, 100px each */
+    justify-content: space-between; /* Equal spacing between columns */
+    gap: 20px; /* Adds space between rows if more than one row exists */
+
+ 
+  }
+  .header_logo{
+
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    height: 100%;
   }
   
   .header_logo h1 {
@@ -21,6 +30,7 @@
   
   /* Main Navigation */
   .header_nav {
+   
     display: flex;
     gap: 2rem;
     align-items: center;
@@ -29,7 +39,7 @@
   .nav_links {
     list-style: none;
     display: flex;
-    gap: 1.5rem;
+    gap: 1rem;
   }
   
   .nav_links li {
@@ -93,7 +103,7 @@
   .cta_button {
     background-color: purple;
     color: #fff;
-    padding: 0.5rem 1rem;
+    padding: 10px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
@@ -107,8 +117,23 @@
   
   /* Responsive Menu for Mobile */
   @media (max-width: 768px) {
+    .header_wrapper {
+ 
+       grid-template-columns: 200px 200px;
+   
+   
+  
+   
+     }
+     .header_wrapper .header_logo{
+   
+       
+    
+    }
+    
     /* Main navigation turns into a vertical menu */
     .header_nav {
+      text-align: center;
       display: none; /* Hide by default */
       flex-direction: column;
       position: absolute;
@@ -118,6 +143,9 @@
       width: 100%;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
       z-index: 999;
+    }
+    .header_nav ul li{
+      text-align: center;
     }
   
     .header_nav.active {
@@ -242,7 +270,7 @@
     .cta_button {
       width: 100%;
       text-align: center;
-      padding: 1rem;
+
       border-radius: 10px;
       font-size: 1rem;
     }
